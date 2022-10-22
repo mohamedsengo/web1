@@ -1,0 +1,392 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* box-sizing: border-box; */
+    font-family: 'josefin sans', sans-serif;
+}
+
+
+
+body {
+    background-image: url("images/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 100vh;
+    width: 100%;
+
+}
+
+.nav-style {}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.logo {
+    margin-bottom: -25px;
+
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+nav ul li a:hover {
+    color: brown;
+    transition: .3s;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+button {
+    margin-bottom: -25px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(94, 89, 89);
+}
+
+button:hover {
+    background-color: rgb(81, 0, 255);
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+
+.s1 {
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.s1-d1 h1 {
+    color: rgba(0, 0, 0, 0.712);
+    font-size: 50px;
+    font-family: 'josefin sans', sans-serif;
+    margin: 0 0 20px 0;
+    width: 550px;
+    /* padding-bottom: 150px; */
+}
+
+span {
+    color: rebeccapurple;
+}
+
+.s1-d1 p {
+
+    font-size: 25px;
+    font-family: 'josefin sans', sans-serif;
+    width: 550px;
+    padding-bottom: 150px;
+}
+
+.s1-d1 {
+    margin: 0 0 0 130px;
+    /* width: 100px;
+    height: 100px; */
+
+}
+
+.s1-d2 {
+    position: relative;
+    width: 900px;
+    height: 900px;
+
+}
+
+.s1-d2-pic1 {
+    position: absolute;
+    right: -10px;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+.s1-d2-pic2 {
+    position: absolute;
+    top: 80px;
+    right: 335px;
+    width: 35%;
+    height: 50%;
+    z-index: -1;
+}
+
+.s1-d2-pic3 {
+    position: absolute;
+    top: 450px;
+    right: 200px;
+
+    width: 50%;
+    height: 30%;
+
+}
+
+.s1-d2-pic4 {
+    position: absolute;
+    top: 600px;
+    right: 310px;
+
+    width: 190%;
+    height: 30%;
+
+}
+
+.s2 {
+    position: relative;
+    margin: 100px;
+
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.s2-d1 {
+
+    width: 400px;
+    height: 350px;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+
+
+
+}
+
+.s2-d2 {
+
+    margin-top: 13%;
+    width: 400px;
+    height: 350px;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.s2-d3 {
+
+    margin-top: 35%;
+    width: 400px;
+    height: 350px;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+h3 {
+    font-size: 21px;
+    color: rgb(77, 77, 77);
+    margin: 5px 0 7px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h4 {
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(148, 144, 144);
+}
+
+.pic {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: -90px;
+    width: 1100px;
+}
+
+.s3 {
+    /* width: 100%; */
+    height: 40%;
+}
+
+.s3-d1 {
+    position: relative;
+    top: -480px;
+    margin-left: 150px;
+    /* border: 1px solid red; */
+    width: 350px;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.s3-p {
+    /* position: absolute; */
+    z-index: -1;
+
+}
+
+.s3-p1 {
+    position: absolute;
+    margin-top: -80px;
+    margin-right: 100px;
+    color: rgb(253, 253, 253);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.s3-p2 {
+    position: absolute;
+    color: rgb(253, 253, 253);
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: -15px;
+
+}
+
+.s4 {
+    margin-top: -350px;
+    /* margin-right: 100px; */
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 350px; */
+
+
+}
+
+.s4-d1 {
+    margin: 0 70px 0 70px;
+    /* border: 1px solid red; */
+text-align: center;
+    /* align-items:center; */
+}
+
+.s4-d2 {
+    /* margin: 0 100px 0 0; */
+    /* border: 1px solid red; */
+
+    align-items: flex-end;
+
+}
+
+.h3 {
+    font-size: 21px;
+    color: rgb(77, 77, 77);
+    margin: 20px 0 40px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+.s6-d1 {
+
+    width: 600px;
+}
+
+footer {
+    
+    position: relative;
+    border: 1px solid rgb(255, 255, 255);
+    padding-top: -20%;
+    height: 90%;
+    background-image: url("images/14.png");
+    background-size: 120%;
+     background-repeat: no-repeat;
+
+    background-position: center;
+    z-index: -1;
+    
+
+}
+.fot-div{
+    /* margin-left: 50px; */
+    margin: 450px  0 0 130px;
+}
+.mob {
+    display: flex;
+    justify-content: left;
+    /* margin-left: 10%; */
+}
+
+.d1 {
+    /* border: 1px solid red; */
+    width: 110px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.p1 {
+    margin-right: 10px;
+    font-size: 20px;
+}
+.pp{
+    font-size: 13px;
+}
+
+.apps {
+    display: flex;
+    justify-content: left;
+    margin: 30px 20px 10px 0;
+
+}
+
+.d-apps {
+
+    margin-right: 20px;
+}
+.links{
+    /* color: rgb(255, 255, 255); */
+}
+.ull{
+display: flex;
+}
+
+.lii{
+    /* margin-right: 20px; */
+    margin: 20px 50px 10px 0;
+  
+}
+.li-a{
+    color: rgb(255, 255, 255);
+}
+.fot-img{
+    position: absolute;
+   
+    right: 90px;
+    bottom: 00px;
+    
+
+}
